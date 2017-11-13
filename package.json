@@ -4,6 +4,7 @@
     "description": "react create component",
     "version": "0.0.1",
     "publisher": "hengkx",
+    "author": "hengkx",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -37,6 +38,16 @@
             ]
         }
     },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hengkx/vscode-react-create/issues",
+        "email": "ycxzhkx@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ritwickdey/vscode-react-create.git"
+    },
+    "homepage": "https://ritwickdey.github.io/vscode-react-create/",
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
