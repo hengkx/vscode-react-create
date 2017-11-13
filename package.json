@@ -3,7 +3,7 @@
     "displayName": "vscode-react-create",
     "description": "react create component",
     "version": "0.0.1",
-    "publisher": "2igswbb4dwx47jxgprfgbnyarosqkv5zey6bjy2btj4uzszza2aa",
+    "publisher": "hengkx",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -11,16 +11,31 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "*"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.createFolder",
+                "title": "Create React Folder",
+                "category": "Files and Folder"
             }
-        ]
+        ],
+        "keybindings": [
+            {
+                "command": "extension.createFolder",
+                "key": "ctrl+alt+n"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "command": "extension.createFolder",
+                    "group": "navigation@-createFileFolder"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
