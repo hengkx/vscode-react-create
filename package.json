@@ -45,9 +45,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ritwickdey/vscode-react-create.git"
+        "url": "https://github.com/hengkx/vscode-react-create.git"
     },
-    "homepage": "https://ritwickdey.github.io/vscode-react-create/",
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
