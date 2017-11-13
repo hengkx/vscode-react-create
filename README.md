@@ -1,5 +1,7 @@
 # vscode-react-create
 
+![img](https://github.com/hengkx/vscode-react-create/blob/master/demo.gif)
+
 ## create react component
 
 ```js
